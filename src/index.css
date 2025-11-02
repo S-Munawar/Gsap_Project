@@ -52,12 +52,13 @@ body {
     );
 }
 
-/* @utility masked-img {
+@utility masked-img {
     mask-image: url("/images/mask-img.png");
     mask-repeat: no-repeat;
+    -webkit-mask-position: center;
     mask-position: center;
     mask-size: 50%;
-} */
+}
 
 @layer components {
     main {
